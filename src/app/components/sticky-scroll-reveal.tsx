@@ -28,7 +28,7 @@ export const StickyScroll = ({
                 entry.target.id
             );
             if (index !== -1) {
-              setTimeout(() => setActiveCard(index), 100); // Add a slight delay
+              setTimeout(() => setActiveCard(index), 100);
             }
           }
         });
@@ -36,7 +36,7 @@ export const StickyScroll = ({
       {
         root: null,
         rootMargin: "0px",
-        threshold: 1, // Adjust this value as needed
+        threshold: 1,
       }
     );
 
@@ -48,17 +48,16 @@ export const StickyScroll = ({
     };
   }, [content]);
 
-  const backgroundColors = [
-    "#333333", // base color
-    "#2e2e2e", // slightly darker
-    "#292929", // slightly darker
-    "#242424", // slightly darker
-    "#1f1f1f", // slightly darker
-    "#1a1a1a", // slightly darker
-    "#151515", // slightly darker
-  ];
-
   useEffect(() => {
+    const backgroundColors = [
+      "#333333",
+      "#2e2e2e",
+      "#292929",
+      "#242424",
+      "#1f1f1f",
+      "#1a1a1a",
+      "#151515",
+    ];
     document.body.style.transition = "background-color 0.5s ease";
     document.body.style.backgroundColor =
       backgroundColors[activeCard % backgroundColors.length];
