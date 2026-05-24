@@ -56,12 +56,7 @@ export const Hero = () => {
               texts={[
                 "Hello!",
                 "Merhaba!",
-                "Bonjour!",
-                "Hola!",
                 "Ciao!",
-                "こんにちは!",
-                "Xin chào!",
-                "안녕하세요!",
               ]}
               mainClassName="text-5xl md:text-6xl lg:text-6xl font-semibold text-[#FF611D] py-10 font-sans"
               staggerFrom={"random"}
