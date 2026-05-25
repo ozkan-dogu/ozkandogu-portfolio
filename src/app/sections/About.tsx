@@ -1,14 +1,5 @@
-
 import { Timeline } from "../components/timeline";
-
-function getYearsOfExperience(startYear: number, startMonth: number): string {
-  const now = new Date();
-  const start = new Date(startYear, startMonth - 1);
-  const diffYears = (now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
-  const full = Math.floor(diffYears);
-  const display = diffYears - full >= 0.8 ? full + 1 : full;
-  return `${display}+`;
-}
+import { getYearsOfExperience } from "../lib/utils";
 
 export const About = () => {
   const data = [

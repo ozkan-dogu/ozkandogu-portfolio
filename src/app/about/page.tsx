@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import AnimatedContent from "../components/animatedcontent";
+import { getYearsOfExperience } from "../lib/utils";
 
 const skillCategories = [
   {
@@ -89,40 +90,43 @@ const AboutPage = () => {
                   <h2 className="text-2xl font-medium mb-4">
                     A{" "}
                     <span className="text-[#FF611D]">frontend-first engineer</span>{" "}
-                    with full-stack reach, 8+ years of{" "}
-                    <span className="text-[#FF611D]">enterprise delivery</span>, and a
-                    strong{" "}
+                    with full-stack reach,{" "}
+                    <span className="text-[#FF611D]">{getYearsOfExperience(2019, 6)} years</span>{" "}
+                    of experience, and a strong{" "}
                     <span className="text-[#FF611D]">product ownership mindset</span>.
                   </h2>
                   <p className="mb-6">
                     Based in{" "}
                     <span className="text-[#FF611D]">Izmir, Türkiye</span>, I work remotely
                     with engineering teams across the UK, US, and Europe. I&apos;ve
-                    architected a ship-supply ERP and WMS from zero at a seed-funded
-                    startup, built multi-country logistics platforms serving 15+ countries
-                    at Asendia, and led headless commerce frontend delivery for{" "}
+                    architected a ship-supply ERP and WMS platform from scratch at a
+                    seed-funded startup, contributed to multi-country logistics systems
+                    serving 15+ countries at Asendia, and delivered headless commerce
+                    experiences for brands like{" "}
                     <span className="text-[#FF611D]">
                       Crate &amp; Barrel, AllSaints, LEGO, CB2, and Rivoli Shop
                     </span>{" "}
                     across EPAM Systems and Emakina.
                   </p>
                   <p className="mb-6">
-                    My primary domain is frontend:{" "}
-                    <span className="text-[#FF611D]">Angular 17+, React, Next.js</span>,
-                    TypeScript, NgRx, and Signals. I reach full-stack when the product
-                    needs it —{" "}
-                    <span className="text-[#FF611D]">C#, ASP.NET Core</span>, PostgreSQL,
-                    Node.js, SocketIO, and Flutter mobile modules.
+                    My core expertise is{" "}
+                    <span className="text-[#FF611D]">frontend engineering</span> —
+                    Angular, React, Next.js, NgRx, Signals, and scalable UI architecture.
+                    When products require it, I extend into full-stack development with{" "}
+                    <span className="text-[#FF611D]">
+                      C#, ASP.NET Core, PostgreSQL, Node.js, Socket.IO
+                    </span>
+                    , and Flutter modules.
                   </p>
                   <p>
-                    I bring a{" "}
-                    <span className="text-[#FF611D]">CI/CD-first engineering culture</span>,
-                    a track record of autonomous delivery in fully remote teams, and a
-                    habit of treating engineering decisions as product decisions.
+                    I value{" "}
+                    <span className="text-[#FF611D]">clean architecture</span>,{" "}
+                    CI/CD-first delivery, autonomous execution in remote teams, and
+                    engineering decisions grounded in product impact.
                   </p>
                 </div>
                 <div className="text-sm opacity-60">
-                  Education: Dokuz Eylul University — Computer Programming (2018), Izmir, Türkiye.
+                  Education — Dokuz Eylül University, Computer Programming (2018), İzmir, Türkiye.
                 </div>
               </div>
             </AnimatedContent>
