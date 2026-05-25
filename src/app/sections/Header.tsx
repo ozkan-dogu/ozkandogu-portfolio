@@ -4,6 +4,7 @@ import { useRouter, usePathname } from "next/navigation";
 import AnimatedContent from "../components/animatedcontent";
 import Image from "next/image";
 import Link from "next/link";
+import { cn } from "../lib/utils";
 
 export const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -22,6 +23,9 @@ export const Header = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const isActive = (path: string) =>
+    pathname === path || pathname.startsWith(path + "/");
 
   const handleLogoClick = () => {
     if (pathname === "/") {
@@ -44,13 +48,13 @@ export const Header = () => {
             <Image src="/logo.svg" alt="Özkan Doğu" width={120} height={120} />
           </Link>
           <nav className="hidden md:flex gap-8">
-            <Link href="/about" className="nav-item">
+            <Link href="/about" className={cn("nav-item", isActive("/about") && "nav-item-active")}>
               About
             </Link>
-            <Link href="/my-projects" className="nav-item">
+            <Link href="/my-projects" className={cn("nav-item", isActive("/my-projects") && "nav-item-active")}>
               Projects
             </Link>
-            <Link href="/contact" className="nav-item">
+            <Link href="/contact" className={cn("nav-item", isActive("/contact") && "nav-item-active")}>
               Contact
             </Link>
           </nav>
@@ -82,13 +86,13 @@ export const Header = () => {
               >
                 <Image src="/logo2.svg" alt="Özkan Doğu" width={60} height={20} />
               </button>
-              <Link href="/about" className="nav-item">
+              <Link href="/about" className={cn("nav-item", isActive("/about") && "nav-item-active")}>
                 About
               </Link>
-              <Link href="/my-projects" className="nav-item">
+              <Link href="/my-projects" className={cn("nav-item", isActive("/my-projects") && "nav-item-active")}>
                 Projects
               </Link>
-              <Link href="/contact" className="nav-item">
+              <Link href="/contact" className={cn("nav-item", isActive("/contact") && "nav-item-active")}>
                 Contact
               </Link>
             </nav>
@@ -138,13 +142,13 @@ export const Header = () => {
               >
                 <Image src="/logo2.svg" alt="Özkan Doğu" width={60} height={20} />
               </button>
-              <Link href="/about" className="nav-item">
+              <Link href="/about" className={cn("nav-item", isActive("/about") && "nav-item-active")}>
                 About
               </Link>
-              <Link href="/my-projects" className="nav-item">
+              <Link href="/my-projects" className={cn("nav-item", isActive("/my-projects") && "nav-item-active")}>
                 Projects
               </Link>
-              <Link href="/contact" className="nav-item">
+              <Link href="/contact" className={cn("nav-item", isActive("/contact") && "nav-item-active")}>
                 Contact
               </Link>
             </nav>
