@@ -41,7 +41,7 @@ export const Header = () => {
       >
         <div className="w-full px-4 md:px-16 py-4 backdrop-blur-sm flex justify-between items-center">
           <Link href="/">
-            <Image src="/logo.svg" alt="Özkan Doğu" width={100} height={100} />
+            <Image src="/logo.svg" alt="Özkan Doğu" width={120} height={120} />
           </Link>
           <nav className="hidden md:flex gap-8">
             <Link href="/about" className="nav-item">
@@ -106,8 +106,8 @@ export const Header = () => {
           <Image
             src="/logo.svg"
             alt="Özkan Doğu"
-            width={60}
-            height={20}
+            width={140}
+            height={40}
             className="py-4"
           />
         </Link>
