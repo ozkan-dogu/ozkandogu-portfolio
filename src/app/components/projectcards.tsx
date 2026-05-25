@@ -27,6 +27,8 @@ type Card = {
   content: React.ReactNode;
   link?: string;
   slug?: string;
+  description?: string;
+  objectPosition?: string;
 };
 
 export const CarouselContext = createContext<{
@@ -269,28 +271,37 @@ export const Card = ({
       <motion.button
         layoutId={layout ? `card-${card.title}` : undefined}
         onClick={handleOpen}
-        className="rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10"
+        className="rounded-3xl bg-neutral-900 h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10 group cursor-pointer"
       >
-        <div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30 pointer-events-none" />
-        <div className="relative z-40 p-8">
+        {/* Top gradient — readable text, relaxes on hover */}
+        <div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/75 via-black/25 to-transparent z-30 pointer-events-none transition-opacity duration-500 group-hover:opacity-75" />
+        {/* Bottom gradient — depth */}
+        <div className="absolute bottom-0 inset-x-0 h-24 bg-gradient-to-t from-black/60 to-transparent z-30 pointer-events-none" />
+        <div className="relative z-40 p-6 md:p-8">
           <motion.p
             layoutId={layout ? `category-${card.category}` : undefined}
-            className=" text-sm md:text-base font-medium font-mono text-left"
+            className="text-xs font-mono font-medium text-left tracking-widest uppercase text-[#FF611D] mb-1"
           >
             {card.category}
           </motion.p>
           <motion.p
             layoutId={layout ? `title-${card.title}` : undefined}
-            className=" text-xl md:text-3xl font-semibold max-w-xs text-left [text-wrap:balance] font-sans mt-2"
+            className="text-xl md:text-2xl font-bold max-w-xs text-left [text-wrap:balance] font-sans mt-1 leading-tight"
           >
             {card.title}
           </motion.p>
+          {card.description && (
+            <p className="text-xs font-mono text-[#D6D2BD]/60 mt-2.5 max-w-[240px] leading-relaxed line-clamp-2">
+              {card.description}
+            </p>
+          )}
         </div>
         <BlurImage
           src={card.src}
           alt={card.title}
           fill
-          className="object-cover absolute z-10 inset-0"
+          className="object-cover absolute z-10 inset-0 opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500 ease-in-out"
+          style={card.objectPosition ? { objectPosition: card.objectPosition } : undefined}
         />
       </motion.button>
     </>
