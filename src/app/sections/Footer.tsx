@@ -7,10 +7,8 @@ const Footer = () => {
   return (
     <div className="py-8 px-4 text-center mt-2 relative">
       <hr className="border-t border-gray-300 mb-8" />
-      <div className="mb-4 flex justify-center items-center gap-2 px-4">
-        <Image src="/logo.svg" alt="Özkan Doğu" width={160} height={50} />
-        <span>/</span>
-        <Image src="/logo2.svg" alt="OD" width={80} height={40} />
+      <div className="mb-4 flex justify-center items-center px-4">
+        <Image src="/logo.svg" alt="Özkan Doğu" width={176} height={40} />
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center mt-15 px-8">
         <div className="md:text-left mb-4 md:mb-0">

@@ -12,7 +12,7 @@ export const Hero = () => {
     about_me: {
       name: "Özkan Doğu",
       "career-in-progress": "Senior Software Engineer",
-      "current-career-focus": "Angular · .NET Core · React · TypeScript",
+      "current-career-focus": "Angular · .NET Core · React",
     },
   };
 

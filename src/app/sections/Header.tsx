@@ -1,11 +1,14 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useRouter, usePathname } from "next/navigation";
 import AnimatedContent from "../components/animatedcontent";
 import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,6 +22,14 @@ export const Header = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleLogoClick = () => {
+    if (pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      router.push("/");
+    }
+  };
 
   return (
     <section>
@@ -46,7 +57,7 @@ export const Header = () => {
         </div>
       </div>
 
-      {/* Centered rounded nav that shows after scrolling */}
+      {/* Centered rounded nav that shows after scrolling — desktop */}
       <div
         className={`flex justify-center items-center fixed top-3 w-full z-50 transition-all duration-300 ${
           scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
@@ -63,10 +74,14 @@ export const Header = () => {
             scale={1.1}
             threshold={0.2}
           >
-            <nav className="flex gap-1 p-1 rounded-full bg-white/20 text-[#D6D2BD]">
-              <Link href="/" className="nav-item">
+            <nav className="flex items-center gap-1 p-1 rounded-full bg-white/20 text-[#D6D2BD]">
+              <button
+                onClick={handleLogoClick}
+                className="nav-item flex items-center justify-center cursor-pointer"
+                aria-label="Go to top"
+              >
                 <Image src="/logo2.svg" alt="Özkan Doğu" width={60} height={20} />
-              </Link>
+              </button>
               <Link href="/about" className="nav-item">
                 About
               </Link>
@@ -81,6 +96,7 @@ export const Header = () => {
         </div>
       </div>
 
+      {/* Mobile: logo only — top of page */}
       <div
         className={`fixed top-0 w-full z-50 flex justify-center items-center md:hidden transition-all duration-300 ${
           scrolled ? "opacity-0 -translate-y-full" : "opacity-100"
@@ -97,6 +113,7 @@ export const Header = () => {
         </Link>
       </div>
 
+      {/* Mobile: rounded nav — after scrolling */}
       <div
         className={`fixed top-3 w-full z-50 flex justify-center items-center md:hidden transition-all duration-300 ${
           scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
@@ -113,10 +130,14 @@ export const Header = () => {
             scale={1.1}
             threshold={0.2}
           >
-            <nav className="flex gap-1 p-1 rounded-full bg-white/20 text-[#D6D2BD]">
-              <Link href="/" className="nav-item z-50">
+            <nav className="flex items-center gap-1 p-1 rounded-full bg-white/20 text-[#D6D2BD]">
+              <button
+                onClick={handleLogoClick}
+                className="nav-item flex items-center justify-center cursor-pointer"
+                aria-label="Go to top"
+              >
                 <Image src="/logo2.svg" alt="Özkan Doğu" width={60} height={20} />
-              </Link>
+              </button>
               <Link href="/about" className="nav-item">
                 About
               </Link>
