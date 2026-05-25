@@ -21,10 +21,10 @@ export function FeaturedProject() {
 const SeabornContent = () => (
   <div className="bg-[#1a1a1a] p-8 md:p-14 rounded-3xl mb-4">
     <p className="text-sm font-semibold md:text-xl font-sans max-w-3xl mx-auto mb-6">
-      Full-stack ERP and warehouse management system built from scratch for
-      the maritime supply industry. Sole architect — selected the tech stack
-      and owned end-to-end delivery across frontend and backend. Helped the
-      product secure seed funding.
+      Greenfield ship-supply ERP and warehouse management system — sole
+      architect from day one. Owned the full tech stack selection, system
+      design, and end-to-end delivery across frontend and backend. The
+      product secured seed funding.
     </p>
     <div className="flex flex-wrap gap-2 max-w-3xl mx-auto">
       {[
@@ -51,11 +51,10 @@ const SeabornContent = () => (
 const AsendiaContent = () => (
   <div className="bg-[#1a1a1a] p-8 md:p-14 rounded-3xl mb-4">
     <p className="text-sm font-semibold md:text-xl font-sans max-w-3xl mx-auto mb-6">
-      Multi-country logistics management system serving 15+ countries. C# /
-      ASP.NET Core RESTful services with typed contracts and multi-region data
-      sync pipelines. Angular frontend with NgRx and a SASS design system.
-      PostgreSQL query optimisation delivering a 25% efficiency gain on
-      high-volume shipping data.
+      Full-stack logistics platform powering international parcel operations
+      across 15+ countries. C# / ASP.NET Core APIs with typed contracts and
+      multi-region data sync. Angular + NgRx frontend. 25% operational
+      efficiency gain through targeted PostgreSQL query optimisation.
     </p>
     <div className="flex flex-wrap gap-2 max-w-3xl mx-auto">
       {[
@@ -81,11 +80,10 @@ const AsendiaContent = () => (
 const CrateAndBarrelContent = () => (
   <div className="bg-[#1a1a1a] p-8 md:p-14 rounded-3xl mb-4">
     <p className="text-sm font-semibold md:text-xl font-sans max-w-3xl mx-auto mb-6">
-      Enterprise Angular frontend for one of North America&apos;s leading home
-      furnishing retailers. Led the SAP Spartacus implementation at EPAM
-      Systems — defining API contracts with backend teams, conducting code
-      reviews, and driving sprint planning across international Agile/Scrum
-      squads.
+      Enterprise headless commerce frontend for one of North America&apos;s
+      leading home furnishing retailers. Led the SAP Spartacus (Angular)
+      implementation at EPAM — defining API contracts, driving code reviews,
+      and running sprint planning across distributed US/UK Agile squads.
     </p>
     <div className="flex flex-wrap gap-2 max-w-3xl mx-auto">
       {[
@@ -138,10 +136,10 @@ const CB2Content = () => (
 const AllSaintsContent = () => (
   <div className="bg-[#1a1a1a] p-8 md:p-14 rounded-3xl mb-4">
     <p className="text-sm font-semibold md:text-xl font-sans max-w-3xl mx-auto mb-6">
-      Enterprise Angular frontend for the global fashion brand AllSaints.
-      Delivered via EPAM Systems using SAP Spartacus — improving Core Web
-      Vitals (LCP, CLS, FID) through lazy loading, HTTP caching, and data
-      prefetching across high-traffic international storefronts.
+      Enterprise headless commerce frontend for the global fashion brand
+      AllSaints. Delivered via EPAM Systems using SAP Spartacus — measurably
+      improved Core Web Vitals (LCP, CLS, FID) through lazy loading, HTTP
+      caching, and prefetching on high-traffic international storefronts.
     </p>
     <div className="flex flex-wrap gap-2 max-w-3xl mx-auto">
       {[
@@ -166,11 +164,10 @@ const AllSaintsContent = () => (
 const LegoContent = () => (
   <div className="bg-[#1a1a1a] p-8 md:p-14 rounded-3xl mb-4">
     <p className="text-sm font-semibold md:text-xl font-sans max-w-3xl mx-auto mb-6">
-      Headless commerce storefront for LEGO, one of the world&apos;s most
-      iconic toy brands. Built with SAP Spartacus (Angular) and ContentStack
-      CMS at Emakina. Delivered a brand-aligned, Figma-accurate Storybook
-      component library with full TypeScript coverage and rigorous Jasmine/Karma
-      unit test protocols.
+      Headless commerce storefront for one of the world&apos;s most recognised
+      toy brands. Built with SAP Spartacus (Angular) and ContentStack CMS at
+      Emakina. Delivered a Figma-accurate, fully documented Storybook
+      component library with TypeScript coverage and Jasmine/Karma unit tests.
     </p>
     <div className="flex flex-wrap gap-2 max-w-3xl mx-auto">
       {[
@@ -195,11 +192,10 @@ const LegoContent = () => (
 const RivoliContent = () => (
   <div className="bg-[#1a1a1a] p-8 md:p-14 rounded-3xl mb-4">
     <p className="text-sm font-semibold md:text-xl font-sans max-w-3xl mx-auto mb-6">
-      Headless commerce storefront for Rivoli Shop, a premium multi-brand
-      retail chain across the Middle East and Asia. Built with Vue Storefront
-      (VueJS — Vue Router, Vuex, Axios) and ContentStack CMS at Emakina.
-      Delivered a fully documented Vue component library aligned to brand
-      guidelines.
+      Headless commerce storefront for a premium multi-brand retail chain
+      across the Middle East and Asia. Built with Vue Storefront (Vue Router,
+      Vuex, Axios) and ContentStack CMS at Emakina. Delivered a fully
+      documented Vue component library aligned to brand design guidelines.
     </p>
     <div className="flex flex-wrap gap-2 max-w-3xl mx-auto">
       {[

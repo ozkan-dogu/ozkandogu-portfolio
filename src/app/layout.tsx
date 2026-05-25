@@ -18,7 +18,7 @@ const jetBrainMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Özkan Doğu — Senior Software Engineer",
   description:
-    "Senior Software Engineer with 8+ years of full-stack experience. Angular, React, .NET Core, and Node.js — building scalable products for global teams from Izmir, Turkiye.",
+    "Senior software engineer with 8 years building enterprise Angular, .NET Core, and React systems. Shipped an ERP/WMS from scratch, scaled logistics across 15+ countries, and delivered headless commerce for LEGO, Crate & Barrel, and AllSaints. Remote from Izmir, Türkiye.",
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
         <title>Özkan Doğu — Senior Software Engineer</title>
         <meta
           name="description"
-          content="Senior Software Engineer with 8+ years of full-stack experience. Angular, React, .NET Core, and Node.js — building scalable products for global teams from Izmir, Turkiye."
+          content="Senior software engineer with 8 years building enterprise Angular, .NET Core, and React systems. Shipped an ERP/WMS from scratch, scaled logistics across 15+ countries, and delivered headless commerce for LEGO, Crate & Barrel, and AllSaints. Remote from Izmir, Türkiye."
         />
 
         {/* Open Graph */}
@@ -41,7 +41,7 @@ export default function RootLayout({
         <meta property="og:title" content="Özkan Doğu — Senior Software Engineer" />
         <meta
           property="og:description"
-          content="Senior Software Engineer with 8+ years of full-stack experience. Angular, React, .NET Core, and Node.js — building scalable products for global teams from Izmir, Turkiye."
+          content="Senior software engineer with 8 years building enterprise Angular, .NET Core, and React systems. Shipped an ERP/WMS from scratch, scaled logistics across 15+ countries, and delivered headless commerce for LEGO, Crate & Barrel, and AllSaints. Remote from Izmir, Türkiye."
         />
         <meta property="og:image" content="/zen-og.png" />
 
@@ -52,7 +52,7 @@ export default function RootLayout({
         <meta name="twitter:title" content="Özkan Doğu — Senior Software Engineer" />
         <meta
           name="twitter:description"
-          content="Senior Software Engineer with 8+ years of full-stack experience. Angular, React, .NET Core, and Node.js — building scalable products for global teams from Izmir, Turkiye."
+          content="Senior software engineer with 8 years building enterprise Angular, .NET Core, and React systems. Shipped an ERP/WMS from scratch, scaled logistics across 15+ countries, and delivered headless commerce for LEGO, Crate & Barrel, and AllSaints. Remote from Izmir, Türkiye."
         />
         <meta name="twitter:image" content="/zen-og.png" />
 

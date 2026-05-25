@@ -7,12 +7,12 @@ const ContactPage = () => {
     {
       name: "LinkedIn",
       link: "https://linkedin.com/in/ozkan-dogu",
-      description: "Connect with me professionally",
+      description: "Connect on LinkedIn",
     },
     {
       name: "Email",
       link: "mailto:ozkandgu@gmail.com?subject=Hello%20Ozkan!%20I%20am%20a%20visitor%20from%20your%20portfolio",
-      description: "Let's talk about your project",
+      description: "Send me a message directly",
     },
   ];
 
@@ -100,7 +100,7 @@ const ContactPage = () => {
         <div className="w-full max-w-2xl px-4 mt-20 flex flex-col items-center justify-center">
           <h1 className="font-bold text-[30px]">SPREAD THE WORD!</h1>
           <h2 className="font-semibold text-lg font-mono text-[#FF611D] flex items-center mb-12">
-            KNOW SOMEONE WHO NEEDS A SENIOR ENGINEER?
+            KNOW A TEAM THAT NEEDS A SENIOR ENGINEER?
           </h2>
           <div className="flex flex-row space-x-4 text-[#D6D2BD]">
             {shareLinks.map((share, index) => (

@@ -20,28 +20,24 @@ export const About = () => {
             Seaborn Software — Senior Frontend Developer
           </p>
           <p className="text-sm font-medium md:text-md font-mono mb-6 opacity-60">
-            London, UK (Remote from Izmir)
+            London, UK · Remote from Izmir
           </p>
           <div className="mb-8 font-medium space-y-2">
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Sole architect of a ship-supply ERP and WMS built from scratch — selected the full tech stack, owned end-to-end delivery, helped the product secure seed funding.
+              Sole architect of a ship-supply ERP and WMS — greenfield from zero to production. Owned tech stack selection, system design, and end-to-end delivery; the product secured seed funding.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Angular 17+ with Signals &amp; NgRx — multi-role workflow UIs, reactive forms, granular access control, Figma-to-production delivery.
+              Built complex multi-role workflow UIs in Angular 17+ (Signals, NgRx) — reactive forms, granular RBAC, and Figma-accurate component delivery.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              RESTful ASP.NET Core API with clean layered architecture (service / repository / data layers).
+              Designed a layered ASP.NET Core API (service / repository / data) and a SocketIO real-time sync layer with IndexedDB (Dexie.js) offline-first support for low-connectivity maritime environments.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              SocketIO real-time state sync + IndexedDB (Dexie.js) offline-first layer for maritime operations.
-            </div>
-            <div className="flex items-start text-sm md:text-md font-mono">
-              <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Flutter cross-platform module for barcode scanning and warehouse inventory tracking.
+              Delivered a Flutter cross-platform module for barcode scanning and warehouse inventory tracking, used daily by warehouse and logistics staff.
             </div>
           </div>
         </div>
@@ -60,15 +56,15 @@ export const About = () => {
           <div className="mb-8 font-medium space-y-2">
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Designed RESTful C# / ASP.NET Core services — typed contracts, error handling middleware, and multi-region data sync pipelines for logistics across 15+ countries.
+              Built C# / ASP.NET Core services powering international parcel logistics across 15+ countries — typed API contracts, error middleware, and multi-region data sync pipelines ensuring cross-border shipment accuracy.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Entity Framework Core + PostgreSQL query optimisation for high-volume shipping data — 25% efficiency gain.
+              Optimised Entity Framework Core + PostgreSQL queries on high-volume shipping data — 25% efficiency gain on the core routing and comparison workflows.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Multi-module Angular app with NgRx state management, lazy-loaded feature modules, and a SASS design system.
+              Delivered a multi-module Angular frontend with NgRx state management, lazy-loaded feature modules, and a maintainable SASS design system aligned to product requirements.
             </div>
           </div>
         </div>
@@ -87,19 +83,19 @@ export const About = () => {
           <div className="mb-8 font-medium space-y-2">
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Led Angular frontend tracks for Crate &amp; Barrel and AllSaints using SAP Spartacus — API contracts, code reviews, sprint planning in international Agile/Scrum.
+              Led Angular frontend delivery for Crate &amp; Barrel and AllSaints via SAP Spartacus at EPAM — defined API contracts with backend teams, drove code reviews, and ran sprint planning across distributed US/UK Agile squads.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Headless commerce for LEGO and CB2 using SAP Spartacus (Angular); Rivoli Shop using Vue Storefront (VueJS) with ContentStack CMS.
+              Delivered headless commerce storefronts for LEGO and CB2 using SAP Spartacus (Angular); built Rivoli Shop on Vue Storefront (VueJS) with ContentStack CMS — all with brand-aligned Storybook component libraries.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Jenkins CI/CD pipelines cutting release cycles by 40%; brand-aligned Storybook component libraries enabling 30% faster cross-market delivery.
+              Automated Jenkins CI/CD pipelines — cut production release cycles by 40% and enabled 30% faster cross-market delivery through reusable, Figma-accurate component libraries.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Improved Core Web Vitals (LCP, CLS, FID) via lazy loading, caching, and data prefetching on high-traffic global commerce platforms.
+              Improved Core Web Vitals (LCP, CLS, FID) on high-traffic international storefronts via lazy loading, HTTP caching, and data prefetching strategies.
             </div>
           </div>
         </div>
@@ -113,16 +109,16 @@ export const About = () => {
             Miya Automation And Barcode Systems — Frontend Developer
           </p>
           <p className="text-sm font-medium md:text-md font-mono mb-6 opacity-60">
-            Izmir, Turkiye
+            Izmir, Türkiye
           </p>
           <div className="mb-8 font-medium space-y-2">
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Live B2B security monitoring platform — SocketIO event feeds, Google Maps API device tracking, alert routing, and fleet status panels.
+              Built a live B2B security monitoring dashboard from scratch — SocketIO event streams, Google Maps device tracking, real-time alert routing, and fleet status panels for embedded hardware clients.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              End-to-end Ionic B2B mobile app (App Store / Play Store) with barcode scanning and IoT device integrations.
+              Owned end-to-end delivery of a B2B Ionic mobile app from design through App Store and Play Store deployment — barcode scanning and IoT device integrations for automotive and logistics clients.
             </div>
           </div>
         </div>
@@ -135,7 +131,7 @@ export const About = () => {
       <div className="flex flex-col items-center justify-center pt-24 lg:pt-34">
         <h1 className="font-bold text-[30px]">EXPERIENCE</h1>
         <h2 className="font-semibold text-lg font-mono text-[#FF611D]">
-          {getYearsOfExperience(2019, 6)} YEARS · REMOTE · GLOBAL
+          {getYearsOfExperience(2019, 6)} YEARS · REMOTE · UK & US TEAMS
         </h2>
         <Timeline data={data} />
       </div>

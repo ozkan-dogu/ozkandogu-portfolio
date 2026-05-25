@@ -5,27 +5,27 @@ import AnimatedContent from "../components/animatedcontent";
 const skillCategories = [
   {
     category: "Frontend",
-    skills: ["Angular 17/18+", "React", "Next.js", "Vue.js", "TypeScript", "NgRx", "RxJS", "Signals", "SSR"],
+    skills: ["Angular 17/18+", "TypeScript", "NgRx / Signals / RxJS", "React", "Next.js", "Vue.js", "SSR / CSR"],
   },
   {
     category: "Backend",
-    skills: ["C# / ASP.NET Core", ".NET 6+", "Node.js", "RESTful API", "GraphQL", "WebSocket / SocketIO", "Entity Framework Core"],
+    skills: ["C# / ASP.NET Core", ".NET 6/8", "Node.js", "REST API Design", "GraphQL", "SocketIO", "Entity Framework Core"],
   },
   {
     category: "Database",
-    skills: ["PostgreSQL", "SQL Server", "Firebase Firestore", "IndexedDB / Dexie.js"],
+    skills: ["PostgreSQL", "SQL Server", "IndexedDB / Dexie.js", "Firebase Firestore"],
   },
   {
     category: "Mobile",
-    skills: ["Flutter / Dart", "Ionic Framework", "App Store / Play Store"],
+    skills: ["Flutter / Dart", "Ionic Framework", "App Store & Play Store"],
   },
   {
     category: "DevOps & Tooling",
-    skills: ["Jenkins CI/CD", "Git", "GitHub", "ESLint / Prettier", "Agile / Scrum", "Figma", "Storybook"],
+    skills: ["Jenkins CI/CD", "Git / GitHub", "Storybook", "Figma", "Agile / Scrum", "Nx Monorepo"],
   },
   {
     category: "eCommerce & CMS",
-    skills: ["SAP Hybris / Spartacus", "Vue Storefront", "ContentStack", "Headless Commerce"],
+    skills: ["SAP Spartacus / Hybris", "Vue Storefront", "ContentStack CMS", "Headless Commerce"],
   },
 ];
 
@@ -88,37 +88,41 @@ const AboutPage = () => {
                 <div className="mb-8">
                   <h2 className="text-2xl font-medium mb-4">
                     A{" "}
-                    <span className="text-[#FF611D]">senior full-stack engineer</span>{" "}
-                    with 8+ years of{" "}
-                    <span className="text-[#FF611D]">end-to-end product ownership</span>{" "}
-                    and a strong{" "}
-                    <span className="text-[#FF611D]">product mindset</span>.
+                    <span className="text-[#FF611D]">frontend-first engineer</span>{" "}
+                    with full-stack reach, 8+ years of{" "}
+                    <span className="text-[#FF611D]">enterprise delivery</span>, and a
+                    strong{" "}
+                    <span className="text-[#FF611D]">product ownership mindset</span>.
                   </h2>
                   <p className="mb-6">
-                    I work remotely from{" "}
-                    <span className="text-[#FF611D]">Izmir, Turkiye</span>, collaborating
-                    with international teams across the UK, US, and Europe. My recent work
-                    includes architecting a complete ship-supply ERP and WMS from scratch at
-                    a seed-funded startup, building .NET Core APIs and Angular platforms
-                    running across 15+ countries, and leading enterprise frontend delivery
-                    for global brands.
+                    Based in{" "}
+                    <span className="text-[#FF611D]">Izmir, Türkiye</span>, I work remotely
+                    with engineering teams across the UK, US, and Europe. I&apos;ve
+                    architected a ship-supply ERP and WMS from zero at a seed-funded
+                    startup, built multi-country logistics platforms serving 15+ countries
+                    at Asendia, and led headless commerce frontend delivery for{" "}
+                    <span className="text-[#FF611D]">
+                      Crate &amp; Barrel, AllSaints, LEGO, CB2, and Rivoli Shop
+                    </span>{" "}
+                    across EPAM Systems and Emakina.
                   </p>
                   <p className="mb-6">
-                    On the frontend I work with{" "}
+                    My primary domain is frontend:{" "}
                     <span className="text-[#FF611D]">Angular 17+, React, Next.js</span>,
-                    and Vue.js. On the backend:{" "}
-                    <span className="text-[#FF611D]">C#, ASP.NET Core, Node.js</span>,
-                    PostgreSQL, and GraphQL. Mobile: Flutter and Ionic.
+                    TypeScript, NgRx, and Signals. I reach full-stack when the product
+                    needs it —{" "}
+                    <span className="text-[#FF611D]">C#, ASP.NET Core</span>, PostgreSQL,
+                    Node.js, SocketIO, and Flutter mobile modules.
                   </p>
                   <p>
-                    I bring a strong{" "}
-                    <span className="text-[#FF611D]">CI/CD culture</span>, a track record
-                    of working autonomously in fully remote teams, and a drive to ship
-                    production-quality software that scales.
+                    I bring a{" "}
+                    <span className="text-[#FF611D]">CI/CD-first engineering culture</span>,
+                    a track record of autonomous delivery in fully remote teams, and a
+                    habit of treating engineering decisions as product decisions.
                   </p>
                 </div>
                 <div className="text-sm opacity-60">
-                  Education: Dokuz Eylul University — Computer Programming (2018), Izmir, Turkiye.
+                  Education: Dokuz Eylul University — Computer Programming (2018), Izmir, Türkiye.
                 </div>
               </div>
             </AnimatedContent>
