@@ -61,12 +61,12 @@ const AboutPage = () => {
           >
             <div className="block lg:hidden mb-8">
               <div className="flex justify-center">
-                <div className="relative w-60 h-60 md:w-80 md:h-80 overflow-hidden rounded-full">
+                <div className="relative w-72 h-72 md:w-96 md:h-96 overflow-hidden rounded-full">
                   <Image
                     src="/profil-pic.png"
                     alt="Ozkan Dogu profile photo"
                     fill
-                    className="object-cover object-center rounded-full"
+                    className="object-cover object-top rounded-full"
                   />
                 </div>
               </div>
@@ -144,12 +144,12 @@ const AboutPage = () => {
             >
               <div className="hidden lg:block">
                 <div className="flex justify-end">
-                  <div className="relative w-60 h-60 md:w-80 md:h-80 overflow-hidden rounded-full">
+                  <div className="relative w-72 h-72 md:w-96 md:h-96 overflow-hidden rounded-full">
                     <Image
                       src="/profil-pic.png"
                       alt="Ozkan Dogu profile photo"
                       fill
-                      className="object-cover object-center rounded-full"
+                      className="object-cover object-top rounded-full"
                     />
                   </div>
                 </div>
