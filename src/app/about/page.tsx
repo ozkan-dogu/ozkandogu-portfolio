@@ -63,7 +63,7 @@ const AboutPage = () => {
               <div className="flex justify-center">
                 <div className="relative w-60 h-60 md:w-80 md:h-80 overflow-hidden rounded-full">
                   <Image
-                    src="/pp.jpg"
+                    src="/profil-pic.png"
                     alt="Ozkan Dogu profile photo"
                     fill
                     className="object-cover object-center rounded-full"
@@ -146,7 +146,7 @@ const AboutPage = () => {
                 <div className="flex justify-end">
                   <div className="relative w-60 h-60 md:w-80 md:h-80 overflow-hidden rounded-full">
                     <Image
-                      src="/pp.jpg"
+                      src="/profil-pic.png"
                       alt="Ozkan Dogu profile photo"
                       fill
                       className="object-cover object-center rounded-full"
