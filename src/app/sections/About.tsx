@@ -8,7 +8,7 @@ export const About = () => {
       content: (
         <div>
           <p className="text-sm font-bold md:text-md font-mono mb-2 text-[#FF611D]">
-            Seaborn Software — Lead Frontend Engineer / Software Architect
+            Seaborn Software — Lead Frontend Engineer
           </p>
           <p className="text-sm font-medium md:text-md font-mono mb-6 opacity-60">
             London, UK · Remote from Izmir
