@@ -8,7 +8,7 @@ export const About = () => {
       content: (
         <div>
           <p className="text-sm font-bold md:text-md font-mono mb-2 text-[#FF611D]">
-            Seaborn Software — Senior Frontend Developer
+            Seaborn Software — Lead Frontend Engineer / Software Architect
           </p>
           <p className="text-sm font-medium md:text-md font-mono mb-6 opacity-60">
             London, UK · Remote from Izmir
@@ -16,19 +16,23 @@ export const About = () => {
           <div className="mb-8 font-medium space-y-2">
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Sole architect of a ship-supply ERP and WMS — greenfield from zero to production. Owned tech stack selection, system design, and end-to-end delivery; the product secured seed funding.
+              Led the end-to-end architecture and development of a greenfield ship-supply ERP and WMS platform, taking the product from zero to production and contributing to seed funding success.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Built complex multi-role workflow UIs in Angular 17+ (Signals, NgRx) — reactive forms, granular RBAC, and Figma-accurate component delivery.
+              Owned overall system design and technical decision-making, including frontend architecture, backend structure, and real-time data synchronization strategy.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Designed a layered ASP.NET Core API (service / repository / data) and a SocketIO real-time sync layer with IndexedDB (Dexie.js) offline-first support for low-connectivity maritime environments.
+              Built and led development of complex multi-role workflow UIs using Angular 17+ (Signals, NgRx), implementing reactive forms, granular RBAC, and pixel-perfect Figma implementations.
             </div>
             <div className="flex items-start text-sm md:text-md font-mono">
               <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
-              Delivered a Flutter cross-platform module for barcode scanning and warehouse inventory tracking, used daily by warehouse and logistics staff.
+              Designed and coordinated a layered ASP.NET Core backend architecture (service/repository/data) and a Socket.IO-based real-time sync layer with IndexedDB (Dexie.js) enabling offline-first usage in low-connectivity maritime environments.
+            </div>
+            <div className="flex items-start text-sm md:text-md font-mono">
+              <span className="text-[#FF611D] mr-2 mt-0.5">▸</span>
+              Delivered a Flutter-based cross-platform module for barcode scanning and warehouse inventory workflows used daily by logistics and warehouse teams.
             </div>
           </div>
         </div>
